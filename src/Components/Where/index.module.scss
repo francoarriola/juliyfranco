@@ -6,7 +6,7 @@
   justify-content: space-around;
   height: 85vh;
   @media (max-width: 600px) {
-    height: 130vh;
+    height: 90vh;
   }
 }
 
@@ -44,7 +44,8 @@
       font-size: 15px;
       line-height: 22px;
       text-align: justify;
-      padding: 10px;
+      margin-left: -20px;
+      width: 220px;
     }
   }
 }

@@ -61,18 +61,18 @@
   @media (max-width: 600px) {
     display: flex;
     margin-left: -40px;
-    width: 65.2vh;
+    width: 35vh;
   }
 }
 .container-counter li:nth-child(2n + 2) {
-  background-color: white;
+  background-color: yellow;
   color: black;
   height: 22vh;
   width: 45vh;
   @media (max-width: 600px) {
     display: flex;
     margin-left: -40px;
-    width: 65.2vh;
+    width: 35vh;
   }
 }
 .counter-text {
