@@ -1,0 +1,54 @@
+.fondo {
+  height: 100vh;
+  background-image: url(../../Resources/bici.jpg);
+  background-size: cover;
+  @media (max-width: 600px) {
+    height: 170vh;
+    background-size: 1000px 1100px;
+    background-position: -200px;
+  }
+}
+
+.container-about {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  color: white;
+  @media (max-width: 600px) {
+    flex-direction: column;
+    padding-top: 30px;
+    align-content: center;
+  }
+}
+
+.card-body {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 80vh;
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.card-text {
+  line-height: 35px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.card {
+  width: 25rem;
+  @media (max-width: 600px) {
+    width: 20rem;
+    margin-left: 100px;
+    margin-bottom: 10px;
+  }
+}
+
+.card-subtitle {
+  margin-bottom: 5px;
+  color: rgba(255, 0, 0, 0.719);
+  font-weight: 800;
+  font-size: 20px;
+}

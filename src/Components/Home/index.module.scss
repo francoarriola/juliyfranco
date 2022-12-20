@@ -1,0 +1,25 @@
+.nav {
+  color: black;
+
+  height: 100vh;
+  background-image: url(../../Resources/avion.jpg);
+  background-size: 1400px 700px;
+  &::after {
+    content: "Juli y Franco";
+    color: black;
+    font-weight: 700;
+    display: flex;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif sans-serif;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+  }
+}
+@media (max-width: 600px) {
+  .nav {
+    background-size: 500px 500px;
+    height: 82vh;
+  }
+}

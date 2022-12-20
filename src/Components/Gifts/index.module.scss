@@ -1,0 +1,57 @@
+.container {
+  background-color: black;
+  height: 45vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  @media (max-width: 600px) {
+    width: 80vh;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+  }
+}
+
+.container-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 4px;
+}
+.img-mercadopago {
+  background-image: url("../../Resources/mercadopago.png");
+  background-size: cover;
+  width: 120px;
+  height: 110px;
+  @media (max-width: 600px) {
+    width: 60px;
+    height: 55px;
+  }
+}
+
+.img-santander {
+  background-image: url("../../Resources/santander.png");
+  background-size: cover;
+  width: 350px;
+  height: 60px;
+  @media (max-width: 600px) {
+    width: 113px;
+    height: 20px;
+    margin-left: 90px;
+  }
+}
+
+.img-frances {
+  background-image: url("../../Resources/frances.png");
+  background-size: cover;
+  width: 172px;
+  height: 95px;
+  margin-left: 60px;
+  @media (max-width: 600px) {
+    width: 120px;
+    height: 30px;
+    margin-left: 110px;
+  }
+}

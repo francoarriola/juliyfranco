@@ -1,0 +1,95 @@
+.container {
+  height: 100vh;
+  background-color: white;
+  background-image: url("../../Resources/fondo.webp");
+  background-size: cover;
+  padding-top: 0px;
+  @media (max-width: 600px) {
+    background-size: 500px 600px;
+  }
+}
+
+.card {
+  width: 40rem;
+  @media (max-width: 600px) {
+    width: 28rem;
+    padding: 10px;
+  }
+}
+
+.card-body {
+  background-color: transparent;
+  border: 4px solid black;
+  border-radius: 5px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+  left: 340px;
+  height: 20rem;
+  @media (max-width: 600px) {
+    width: 10rem;
+    position: relative;
+    top: 90px;
+    left: 60px;
+    height: 25rem;
+    width: 350px;
+  }
+}
+
+.activo {
+  color: red;
+}
+
+.card-title {
+  font-size: 30px;
+  font-weight: 800;
+}
+.button {
+  width: 50%;
+  margin-left: 150px;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: 800;
+  border-radius: 5px;
+  &:hover {
+    background-color: green;
+  }
+}
+
+.form {
+  background-color: transparent;
+  border: 4px solid black;
+  border-radius: 5px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  left: 350px;
+  height: 20rem;
+  width: 100vh;
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+    margin-left: -270px;
+    padding-top: 40px;
+    font-size: 20px;
+    height: 25rem;
+  }
+}
+
+.input {
+  @media (max-width: 600px) {
+    height: 35px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid;
+  }
+}
+.input:focus {
+  background-color: lightblue;
+}
