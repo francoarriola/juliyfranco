@@ -6,9 +6,9 @@
   align-items: center;
   color: white;
   @media (max-width: 600px) {
-    width: 80vh;
+    width: 85vh;
     flex-direction: column;
-    height: 70vh;
+    height: 100vh;
     justify-content: center;
   }
 }
