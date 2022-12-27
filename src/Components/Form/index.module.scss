@@ -11,8 +11,6 @@
 .card {
   width: 40rem;
   @media (max-width: 600px) {
-    width: 28rem;
-    padding: 10px;
   }
 }
 
@@ -76,7 +74,8 @@
     justify-content: center;
     width: 320px;
     margin-left: -270px;
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
     font-size: 20px;
     height: 25rem;
   }
