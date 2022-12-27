@@ -1,11 +1,10 @@
 .container {
   height: 100vh;
-  background-color: white;
+
   background-image: url("../../Resources/fondo.webp");
   background-size: cover;
   padding-top: 0px;
   @media (max-width: 600px) {
-    background-size: 500px 600px;
   }
 }
 
