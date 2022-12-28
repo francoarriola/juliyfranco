@@ -19,8 +19,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: cursive;
   @media (max-width: 600px) {
     height: 82vh;
-    font-size: 60px;
+    font-size: 80px;
+    display: flex;
+    padding-left: 80px;
+    line-height: 80px;
   }
 }

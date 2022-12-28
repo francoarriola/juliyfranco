@@ -31,18 +31,26 @@
 .card-title {
   font-size: 50px;
   font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-text {
   line-height: 35px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  @media (max-width: 600px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .card {
   width: 25rem;
   @media (max-width: 600px) {
     width: 20rem;
-    margin-left: 40px;
+    margin-left: 70px;
     margin-bottom: 10px;
   }
 }
@@ -52,4 +60,9 @@
   color: rgba(255, 0, 0, 0.719);
   font-weight: 800;
   font-size: 20px;
+  @media (max-width: 600px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

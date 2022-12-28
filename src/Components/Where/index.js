@@ -9,7 +9,7 @@ const Where = () => {
       </div>
       <div className={Styles["desc"]}>
         <h1>Bonzo</h1>
-        <h3>21:00</h3>
+        <h3>21:00hs</h3>
         <p>
           Bonzo club es un multiespacio ubicao en el corazon de la ciudad de
           Concordia, a 1 cuadra de la plaza principal. Ambientado para lorem

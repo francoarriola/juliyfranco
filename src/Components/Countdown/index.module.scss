@@ -61,8 +61,6 @@
   width: 45vh;
   @media (max-width: 600px) {
     display: flex;
-    margin-left: -40px;
-    width: 35vh;
   }
 }
 .container-counter li:nth-child(2n + 2) {
@@ -72,8 +70,6 @@
   width: 45vh;
   @media (max-width: 600px) {
     display: flex;
-    margin-left: -40px;
-    width: 35vh;
   }
 }
 .counter-text {
