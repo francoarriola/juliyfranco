@@ -13,8 +13,12 @@
     left: 420px;
   }
   @media (max-width: 600px) {
-    height: 82vh;
-    background-position: -780px;
+    background-image: url(../../Resources/portada.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 120vh;
+
     p {
       position: relative;
       top: -200px;

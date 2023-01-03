@@ -32,28 +32,13 @@ const Moments = () => {
           <Image className={Styles["img5"]} />
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            width="100%"
-            src="https://picsum.photos/800/600?random=3"
-            alt="foto"
-            className={Styles["img"]}
-          />
+          <Image className={Styles["img6"]} />
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            width="100%"
-            src="https://picsum.photos/800/600?random=2"
-            alt="foto"
-            className={Styles["img"]}
-          />
+          <Image className={Styles["img7"]} />
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            width="100%"
-            src="https://picsum.photos/800/600?random=3"
-            alt="foto"
-            className={Styles["img"]}
-          />
+          <Image className={Styles["img8"]} />
         </Carousel.Item>
       </Carousel>
     </>

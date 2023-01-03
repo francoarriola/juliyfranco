@@ -5,7 +5,11 @@ import Countdown from "react-countdown";
 const Count = () => {
   return (
     <div className={Styles["container"]}>
-      <div className={Styles["counter-text"]}>Cuanto falta??</div>
+      <div className={Styles["counter-text"]}>
+        Contando <br />
+        los <br />
+        dias!!
+      </div>
       <Countdown
         date={"2023-02-03T21:00:00"}
         intervalDelay={0}

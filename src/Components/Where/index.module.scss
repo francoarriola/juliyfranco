@@ -28,11 +28,12 @@
     font-size: 70px;
     color: #98bba2;
     @media (max-width: 600px) {
-      line-height: 40px;
-      font-size: 40px;
+      line-height: 70px;
+      font-size: 55px;
       display: flex;
       align-items: center;
       justify-content: center;
+      text-align: center;
     }
   }
   // > h3 {
@@ -50,12 +51,15 @@
     line-height: 40px;
     color: #718877;
     @media (max-width: 600px) {
-      font-size: 15px;
-      line-height: 22px;
+      font-size: 20px;
+      line-height: 24px;
       text-align: justify;
       margin-left: -20px;
       width: auto;
       overflow: hidden;
+    }
+    @media (max-width: 500px) {
+      font-size: 15px;
     }
   }
 }

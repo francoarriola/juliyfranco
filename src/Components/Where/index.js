@@ -1,12 +1,12 @@
 import React from "react";
 import Styles from "./index.module.scss";
-import Image from "react-bootstrap/Image";
+// import Image from "react-bootstrap/Image";
 const Where = () => {
   return (
     <div className={Styles["container"]}>
-      <div className={Styles["img"]}>
+      {/* <div className={Styles["img"]}>
         <Image fluid="true"></Image>
-      </div>
+      </div> */}
       <div className={Styles["desc"]}>
         <h1>Querida Familia y Amigos</h1>
         <p>

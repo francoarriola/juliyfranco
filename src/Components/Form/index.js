@@ -45,13 +45,7 @@ const Forms = () => {
               <Card.Title className={Styles["card-title"]}>
                 Confirmacion de Asistencia
               </Card.Title>
-              <Card.Subtitle className={Styles["card-subtitle"]}>
-                La fiesta sera el dia 3 de febrero con pizza libre, bebida
-                libre, show en vivo, comparsa. Como despedida. Tiene un costo e
-                $3000 que sera para nuestra luna de miel y para comer mucho. Una
-                vez que completes los datos de confirmacion te llamaremos para
-                coordinar el metodo de reserva y alcanzarte tu pulsera!
-              </Card.Subtitle>
+
               <Button
                 className={Styles["button"]}
                 onClick={() => handleClick()}
@@ -107,7 +101,7 @@ const Forms = () => {
               />
             </Form.Group>
             <div className={Styles["buttonsgroup"]}>
-              <Button className={Styles["button"]} type="submit" value="Send">
+              <Button className={Styles["button2"]} type="submit" value="Send">
                 ENVIAR
               </Button>
             </div>
