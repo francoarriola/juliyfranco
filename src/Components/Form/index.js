@@ -6,11 +6,11 @@ import Button from "react-bootstrap/Button";
 import emailjs from "@emailjs/browser";
 
 const Forms = () => {
+  const [showMessage, setShowMessage] = useState(false);
+  const [error, setError] = useState(false);
   const [mostrarForm, setMostrarForm] = useState(false);
   const form = useRef();
 
-  //   const [showMessage, setShowMessage] = useState(false);
-  //   const [error, setError] = useState(false);
   function enviarEmail(e) {
     e.preventDefault();
 
@@ -24,11 +24,11 @@ const Forms = () => {
       .then(
         (res) => {
           console.log(res);
-          //   setShowMessage(true);
+          setShowMessage(true);
         },
         (err) => {
           console.log(err);
-          //   setError(true);
+          setError(true);
         }
       );
   }
@@ -101,10 +101,32 @@ const Forms = () => {
               />
             </Form.Group>
             <div className={Styles["buttonsgroup"]}>
-              <Button className={Styles["button2"]} type="submit" value="Send">
-                ENVIAR
-              </Button>
+              {!showMessage ? (
+                <Button
+                  className={Styles["button2"]}
+                  type="submit"
+                  value="Send"
+                >
+                  ENVIAR
+                </Button>
+              ) : (
+                " "
+              )}
             </div>
+            {showMessage ? (
+              <div className={Styles["alert"]} role="alert">
+                Confirmacion Enviada Correctamente!!
+              </div>
+            ) : (
+              " "
+            )}
+            {error ? (
+              <div className={Styles["alertrojo"]} role="alert">
+                Tu Confirmacion no pudo ser enviada.
+              </div>
+            ) : (
+              ""
+            )}
           </Form>
         )}
       </div>

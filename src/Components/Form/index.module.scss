@@ -128,3 +128,22 @@
 .input:focus {
   background-color: lightblue;
 }
+
+.alert {
+  background-color: rgb(11, 228, 11);
+  width: min-content;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+.alertrojo {
+  background-color: rgb(255, 3, 3);
+  width: 50%;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  text-align: center;
+}
