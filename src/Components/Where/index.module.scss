@@ -4,7 +4,7 @@
   margin-top: 0;
   align-items: center;
   justify-content: space-around;
-  height: 85vh;
+  height: 95vh;
   @media (max-width: 600px) {
     height: 90vh;
   }
@@ -27,7 +27,7 @@
   > h1 {
     font-size: 70px;
     color: #98bba2;
-    @media (max-width: 600px) {
+    @media (max-width: 700px) {
       line-height: 70px;
       font-size: 55px;
       display: flex;
@@ -50,7 +50,7 @@
     justify-content: start;
     line-height: 40px;
     color: #718877;
-    @media (max-width: 600px) {
+    @media (max-width: 700px) {
       font-size: 20px;
       line-height: 24px;
       text-align: justify;
