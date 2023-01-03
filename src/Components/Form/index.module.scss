@@ -11,6 +11,17 @@
 .card {
   width: 40rem;
   @media (max-width: 600px) {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+.container-card {
+  @media (max-width: 600px) {
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
 }
 
@@ -60,7 +71,8 @@
   background-color: transparent;
   border: 4px solid black;
   border-radius: 5px;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -72,8 +84,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 320px;
-    margin-left: -270px;
+    position: relative;
+    left: 10px;
+    align-content: center;
+    width: 20rem;
+
     padding-top: 20px;
     padding-left: 10px;
     font-size: 20px;

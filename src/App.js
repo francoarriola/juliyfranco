@@ -1,5 +1,5 @@
 import "./App.css";
-import About from "./Components/About";
+// import About from "./Components/About";
 import Count from "./Components/Countdown";
 import Divider from "./Components/Divider";
 import Forms from "./Components/Form";
@@ -12,16 +12,16 @@ function App() {
   return (
     <div className="App">
       <Home />
-      <Count />
-      <About />
-      <Divider message="Donde?" />
+      {/* <About /> */}
+      <Divider message="Invitacion" />
       <Where />
       <Divider message="Momentos" />
       <Moments />
-      <Divider message="Regalos" />
+      <Divider message="Regalo" />
       <Gifts />
       <Divider message="El mejor regalo es tu compañia" />
       <Forms />
+      <Count />
     </div>
   );
 }

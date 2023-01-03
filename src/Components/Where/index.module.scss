@@ -1,5 +1,5 @@
 .container {
-  background-color: black;
+  background-color: #fcfcda;
   display: flex;
   margin-top: 0;
   align-items: center;
@@ -22,30 +22,33 @@
 }
 
 .desc {
-  color: white;
+  color: black;
   width: 50%;
   > h1 {
     font-size: 70px;
+    color: #98bba2;
     @media (max-width: 600px) {
+      line-height: 40px;
       font-size: 40px;
       display: flex;
       align-items: center;
       justify-content: center;
     }
   }
-  > h3 {
-    font-size: 20px;
-    margin-top: -35px;
-    @media (max-width: 600px) {
-      font-size: 15px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  }
+  // > h3 {
+  //   font-size: 20px;
+  //   margin-top: -35px;
+  //   @media (max-width: 600px) {
+  //     font-size: 15px;
+  //     display: flex;
+  //     align-items: center;
+  //     justify-content: center;
+  //   }
+  // }
   > p {
     justify-content: start;
     line-height: 40px;
+    color: #718877;
     @media (max-width: 600px) {
       font-size: 15px;
       line-height: 22px;

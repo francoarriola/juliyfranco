@@ -5,10 +5,25 @@
   background-image: url(../../Resources/avion.jpg);
   background-size: 1400px 700px;
   background-repeat: no-repeat;
-
+  p {
+    font-size: 40px;
+    width: max-content;
+    font-weight: 800;
+    position: relative;
+    left: 420px;
+  }
   @media (max-width: 600px) {
     height: 82vh;
-    background-position: -680px;
+    background-position: -780px;
+    p {
+      position: relative;
+      top: -200px;
+      left: 40px;
+      font-size: 35px;
+      width: max-content;
+      font-weight: 800;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
   }
 }
 
@@ -19,9 +34,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;
   @media (max-width: 600px) {
     height: 82vh;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 80px;
     display: flex;
     padding-left: 80px;

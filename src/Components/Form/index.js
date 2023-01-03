@@ -38,7 +38,7 @@ const Forms = () => {
   };
   return (
     <div className={Styles["container"]}>
-      <div>
+      <div className={Styles["container-card"]}>
         {!mostrarForm ? (
           <Card className={Styles["card"]}>
             <Card.Body className={Styles["card-body"]}>
