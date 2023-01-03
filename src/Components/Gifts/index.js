@@ -11,7 +11,7 @@ const Gifts = () => {
             Portugal y para ello necesitamos Dinero, porque Salud y Amor...nos
             sobra.
             <br />
-            Nos ayudan con eso que nos faltan?
+            ¿Nos ayudan con eso que nos faltan?
           </p>
         </div>
         <div className={Styles["container-cuentas"]}>
