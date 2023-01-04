@@ -1,17 +1,7 @@
 import React from "react";
 import Styles from "./index.module.scss";
-// import ScrollReveal from "scrollreveal";
 
 const Gifts = () => {
-  // ScrollReveal().reveal(".containeragregado", {
-  //   delay: 300,
-  //   reset: true,
-  //   desktop: true,
-  //   mobile: true,
-
-  //   useDelay: "always",
-  // });
-
   return (
     <div className={Styles["container"]}>
       <div className={Styles["containeragregado"]}>
