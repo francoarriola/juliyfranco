@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 .container {
   display: flex;
   height: 22vh;
@@ -62,6 +64,7 @@
   width: 45vh;
   @media (max-width: 600px) {
     display: flex;
+    margin-left: -30px;
   }
 }
 .container-counter li:nth-child(2n + 2) {
@@ -71,6 +74,7 @@
   width: 45vh;
   @media (max-width: 600px) {
     display: flex;
+    margin-left: -30px;
   }
 }
 .counter-text {
@@ -80,11 +84,12 @@
   justify-content: center;
   display: flex;
   font-weight: 700;
+  font-family: "Lobster";
   @media (max-width: 600px) {
-    padding-left: 20px;
-    font-weight: 900;
+    padding-left: 5px;
+    font-weight: 700;
     text-align: justify;
-    font-size: 20px;
+    font-size: 27px;
     transform: 90deg;
     text-transform: uppercase;
   }

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 .container {
   background-color: #fcfcda;
   display: flex;
@@ -27,6 +29,7 @@
   > h1 {
     font-size: 70px;
     color: #98bba2;
+    font-family: "Lobster";
     @media (max-width: 700px) {
       line-height: 70px;
       font-size: 55px;
