@@ -14,9 +14,8 @@ const Where = () => {
           nuestros corazones. <br />
           Esta invitacion es especial porque festejar junto a ustedes seria un
           gran regalo.
-          <br /> La fiesta sera en Bonzo el 3 de febrero.
-          <br /> A las 21:00hs ceremonia casi religiosa (se busca pastor aunque
-          sea Aleman).
+          <br /> La fiesta sera el 18 de febrero.
+          <br /> Se busca pastor aunque sea Aleman :).
           <br /> Codigo de vestimenta: Como te sientas comodo y L-Gante :)
           <br />
           Muchas ganas de Bailar hasta que las velas no ardan.

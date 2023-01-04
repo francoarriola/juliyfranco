@@ -17,17 +17,18 @@ const Gifts = () => {
         <div className={Styles["container-cuentas"]}>
           <div className={Styles["container-img"]}>
             <div className={Styles["img-mercadopago"]} alt="foto" fluid />
-            <h3>Alias: NOS.VAMOS.A.LA.MIERDA</h3>
-            <h4>Juliana Alejandra Romero</h4>
+            <h3>Alias: Nos.vamos.a.la.mierd</h3>
+            <h4>Franco Sebastian Arriola</h4>
           </div>
           <div className={Styles["container-img2"]}>
             <div className={Styles["img-santander"]} alt="foto" fluid />
-            <h3>Alias: NOS.VAMOS.A.LA.MIERDA</h3>
-            <h4>Juliana Alejandra Romero</h4>
+            <h3>Alias: fsadev</h3>
+            <h4>Franco Sebastian Arriola</h4>
           </div>
           <div className={Styles["container-img3"]}>
             <div className={Styles["img-frances"]} alt="foto" fluid />
-            <h3>Alias: NOS.VAMOS.A.LA.MIERDA</h3>
+            <h3>Alias: nosfuimosaportugal</h3>
+            <h3>CBU: 0170068840000034523146</h3>
             <h4>Juliana Alejandra Romero</h4>
           </div>
         </div>

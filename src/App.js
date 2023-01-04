@@ -19,7 +19,7 @@ function App() {
       <Moments />
       <Divider message="Regalo" />
       <Gifts />
-      <Divider message="El mejor regalo es tu compañia" />
+      <Divider message="" />
       <Forms />
       <Count />
     </div>

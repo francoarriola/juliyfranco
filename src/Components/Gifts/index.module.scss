@@ -48,7 +48,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  line-height: 4px;
+  line-height: 2px;
   width: max-content;
 }
 .container-img3 {
@@ -87,7 +87,7 @@
   width: 350px;
   height: 60px;
   @media (max-width: 600px) {
-    width: 113px;
+    width: 115px;
     height: 20px;
   }
 }
