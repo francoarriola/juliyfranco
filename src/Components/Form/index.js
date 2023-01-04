@@ -4,21 +4,21 @@ import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import emailjs from "@emailjs/browser";
-import ScrollReveal from "scrollreveal";
+// import ScrollReveal from "scrollreveal";
 
 const Forms = () => {
   const [showMessage, setShowMessage] = useState(false);
   const [error, setError] = useState(false);
   const [mostrarForm, setMostrarForm] = useState(false);
   const form = useRef();
-  ScrollReveal().reveal(".card", {
-    delay: 500,
-    reset: true,
-    desktop: true,
-    mobile: true,
+  // ScrollReveal().reveal(".card", {
+  //   delay: 500,
+  //   reset: true,
+  //   desktop: true,
+  //   mobile: true,
 
-    useDelay: "always",
-  });
+  //   useDelay: "always",
+  // });
   function enviarEmail(e) {
     e.preventDefault();
 

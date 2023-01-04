@@ -1,16 +1,16 @@
 import React from "react";
 import Styles from "./index.module.scss";
-import ScrollReveal from "scrollreveal";
+// import ScrollReveal from "scrol";
 // import Image from "react-bootstrap/Image";
 const Where = () => {
-  ScrollReveal().reveal(".tagline", {
-    delay: 300,
-    reset: true,
-    desktop: true,
-    mobile: true,
+  // ScrollReveal().reveal(".tagline", {
+  //   delay: 300,
+  //   reset: true,
+  //   desktop: true,
+  //   mobile: true,
 
-    useDelay: "always",
-  });
+  //   useDelay: "always",
+  // });
   return (
     <div className={Styles["container"]}>
       {/* <div className={Styles["img"]}>
