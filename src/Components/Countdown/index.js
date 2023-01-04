@@ -11,7 +11,7 @@ const Count = () => {
         dias!!
       </div>
       <Countdown
-        date={"2023-02-03T21:00:00"}
+        date={"2023-02-18T21:00:00"}
         intervalDelay={0}
         precision={0}
         renderer={(props) => (
