@@ -17,7 +17,7 @@ const Gifts = () => {
         <div className={Styles["container-cuentas"]}>
           <div className={Styles["container-img"]}>
             <div className={Styles["img-mercadopago"]} alt="foto" fluid />
-            <h3>Alias: Nos.vamos.a.la.mierd</h3>
+            <h3>Alias: Nos.vamos.a.la.m</h3>
             <h4>Franco Sebastian Arriola</h4>
           </div>
           <div className={Styles["container-img2"]}>
